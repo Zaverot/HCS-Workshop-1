@@ -7,7 +7,7 @@ export default function AboutScreen() {
     <div className="screen-background">
       <div className="intro-background">
         <div className="intro-item">
-          <div>here you'll put a picture of yourself</div>
+          <img src = {CutePic} className = "intro-picture"  />
         </div>
         <div className="intro-item">
           Wow wow wow Your Name is a pretty cool person! check out all these
