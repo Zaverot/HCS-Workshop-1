@@ -1,10 +1,16 @@
-.experience-background {
+.education-background {
     display: flex;
   }
   
   .timeline-background {
     width: 50%;
   }
+
+  .highlight-background {
+    display: flex;
+    width: 100%;
+  }
+
   
   .timeline-item {
     display: flex;
@@ -22,12 +28,14 @@
     background-color: cornflowerblue;
   }
   
+
+  
   .timeline-ball {
     position: absolute;
     width: 24px;
     height: 24px;
     border-radius: 12px;
-    background: crimson;
+    background:#3EB489;
   }
   
   .experience-info {
@@ -40,18 +48,18 @@
     margin: 0;
   }
   
-  .highlight-background {
+  .highlight-background-1 {
     display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: calc(100%);
-    background: crimson;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 48px;
-    justify-content: center;
-    align-items: center;
-    margin: 32px;
+    fill: linear-gradient(to left, white, #3EB489);
+    border-radius: 5px;
+    
+    background-image: linear-gradient(to right, #BFE5D9, #3EB489);
+    
+  }
+
+  .active-title{
+    font-size: 20px;
+    padding-left: 10px;
   }
   
   .highlight-background h1,

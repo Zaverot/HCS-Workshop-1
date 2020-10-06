@@ -3,6 +3,10 @@
   flex-direction: row;
 }
 
+.screen-background{
+  color: black;
+}
+
 .intro-item {
   display: flex;
   flex-direction: row;
@@ -18,9 +22,12 @@ li {
 
 .intro-item p {
   margin: 8px 0;
+
 }
 
 .intro-picture {
-  width: 100%;
+  width: 90%;
   height: 100%;
+  border: 5px solid #3EB489;
+  
 }

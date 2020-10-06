@@ -10,8 +10,8 @@
   display: flex;
   width: 50%;
   height: 120px;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -19,7 +19,7 @@
 .timeline-item:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
-  background-color: cornflowerblue;
+  background-color: #3EB489;
 }
 
 .timeline-ball {
@@ -27,7 +27,7 @@
   width: 24px;
   height: 24px;
   border-radius: 12px;
-  background: crimson;
+  background: #3EB489;
 }
 
 .experience-info {
@@ -40,18 +40,26 @@ p {
   margin: 0;
 }
 
+.timeline-title {
+  font-size: 20px;
+}
+
 .highlight-background {
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: calc(100%);
-  background: crimson;
+  height: 100%;
+  background: #3EB489;
   position: -webkit-sticky;
   position: sticky;
   top: 48px;
   justify-content: center;
   align-items: center;
   margin: 32px;
+}
+
+.active-title {
+  font-family: Lato, sans-serif;
 }
 
 .highlight-background h1,

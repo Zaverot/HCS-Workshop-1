@@ -1,6 +1,9 @@
 import React from "react";
 import "./About.css";
-import CutePic from "../../assets/bighappy.png";
+import CutePic from "../../assets/head.jpg";
+import Typed from 'react-typed';
+import 'react-typed/dist/animatedCursor.css';
+
 
 export default function AboutScreen() {
   return (
@@ -9,9 +12,13 @@ export default function AboutScreen() {
         <div className="intro-item">
           <img src = {CutePic} className = "intro-picture"  />
         </div>
+
         <div className="intro-item">
-          Wow wow wow Your Name is a pretty cool person! check out all these
-          details
+          <Typed
+            strings={["Hi! I'm Andy Li and this is CS50"]}
+            typeSpeed={40}
+          />
+          
         </div>
       </div>
     </div>
