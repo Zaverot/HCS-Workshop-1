@@ -6,10 +6,10 @@ Welcome to my website!
 
 Added a new education section, which features a new component School and includes information regarding the school. Clicking on each school will take the user to the school's webpage, while hovering over a school will show the most recent courses taken at that school.
 
-Screenshots
+https://imgur.com/a/NfDkR37
 
-### Added Feature #2
+### About page with typing text and random fun fact section
 
-Description
+Edited the about section, which now features typing text to reveal information about myself. Clicking my picture also generates a random fun fact about me at the bottom of the page.
 
-Screenshots
+https://imgur.com/a/anaA6uF
