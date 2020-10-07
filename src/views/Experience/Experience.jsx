@@ -23,9 +23,11 @@ export default function ExperienceScreen() {
           description = "Research Intern at UT San Antonio, working on a cost-effective pulse oximetry device. Relavent skills include MATLAB, Solidworks, and 3D Printing."
           setActiveTitle={setActiveTitle} />
           <TimeLineItem title = "FIRST Robotics"
-          description = "Founder and Captain of world class FIRST Tech Challenge robotics team. Relevant skills include Java, Swift, CNC, documentation, event organization, project management, fundraising."
+          description = "Founder and Captain of world class FIRST Tech Challenge robotics team. Won second place in the world in 2019. Relevant skills include Java, HTML, Swift, CNC, documentation, event organization, project management, fundraising."
           setActiveTitle={setActiveTitle}></TimeLineItem>
-          <TimeLineItem title = "roller coaster tester" setActiveTitle={setActiveTitle}></TimeLineItem>
+          <TimeLineItem title = "Discord Bot Development"
+          description = "Developed own Discord Bot dubbed Trierarch through JavaScript, and utilized the bots on several discord servers with hundreds of users." 
+          setActiveTitle={setActiveTitle}></TimeLineItem>
           
         </div>
         <div className="highlight-background">

@@ -25,9 +25,17 @@ li {
 
 }
 
+.typed-text {
+  font-size: 25px;
+}
+
 .intro-picture {
   width: 90%;
   height: 100%;
   border: 5px solid #3EB489;
   
+}
+
+.highlight-background-1 {
+  background: #3EB489;
 }
